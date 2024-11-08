@@ -14,13 +14,14 @@ namespace DIPDemo
         public static void Main()
         {
             var car = new Car();
-            var bike = new Bike(); 
+            var bike = new Bike();
 
             var maintenanceService = new MaintenanceService();
-            maintenanceService.MaintainCar(car);
-            maintenanceService.MaintainBike(bike);
+            maintenanceService.MaintainVehicle(car);
+            maintenanceService.MaintainVehicle(bike);
 
             Console.ReadKey();
         }
     }
 }
+

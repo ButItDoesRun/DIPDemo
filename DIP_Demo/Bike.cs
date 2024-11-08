@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace DIP_Demo
 {
-    public class Bike
+    public class Bike : IVehicle
     {
-        public void PerformBikeMaintenance()
+        public void PerformMaintenance()
         {
             Console.WriteLine("Performing bike maintenance...");
         }

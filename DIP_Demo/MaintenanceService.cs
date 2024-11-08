@@ -8,14 +8,9 @@ namespace DIP_Demo
 {
     public class MaintenanceService
     {
-        public void MaintainCar(Car car)
+        public void MaintainVehicle(IVehicle vehicle)
         {
-            car.PerformCarMaintenance();
-        }
-
-        public void MaintainBike(Bike bike)
-        {
-            bike.PerformBikeMaintenance();
+            vehicle.PerformMaintenance();
         }
     }
 }
